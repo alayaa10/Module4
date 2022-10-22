@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgba(125, 75, 218, 0.699);
+}
+
+.top-bar {
+    height: 10vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    padding: 4vh 3vw;
+    background-color: black;
+}
+
+.quiz-card {
+    width: 60vw;
+    margin: 10vh auto;
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+.quiz-card > * {
+    margin: 3vh auto;
+}
+
+.question {
+    width: 70%;
+    height: 8vh;
+    margin: 0 auto;
+}
+
+.discription {
+    width: 70%;
+}
+
+.start-button {
+    width: 30%;
+    margin: 0 auto;
+    color: blueviolet;
+    font-size: 17px;
+    background-color: black;
+    border: solid blueviolet;
+}
+
+.start-button:hover {
+    font-size: 22px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0 ,0.695), 0 17px 50px 0 rgb(0, 0, 0);
+}
+
+
+
+.high-scores {
+    height: 30vh;
+    width: 32vw;
+    margin: 0 auto;
+    overflow-y: scroll;
+    background-color: black;
+    color: blueviolet;
+}
+
+.high-scores > * {
+    margin: 1vh auto;
+    width: 30vw;
+    color: blueviolet;
+    background-color: black;
+    border: solid 3px black;
+}
+
+.go-back-btn {
+    background-color: rgb(8, 1, 15);
+    color: blueviolet;
+    width: 15vw;
+    border: solid blueviolet;
+}
+
+.go-back-btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0 ,0.695), 0 17px 50px 0 rgb(0, 0, 0);
+}
+
+.clear-scores {
+    background-color: black;
+    color: blueviolet;
+    width: 15vw;
+    border: solid blueviolet;
+}
+
+.clear-scores:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0 ,0.695), 0 17px 50px 0 rgb(0, 0, 0);
+}
+
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.answer-button {
+    width: 25vw;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: blueviolet;
+    margin: 2vh 0;
+    font-size: 20px;
+}
+
+.answer-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0 ,0.695), 0 17px 50px 0 rgb(0, 0, 0);
+}
+
+.score-form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.sub-label {
+    background-color: black;
+    color: blueviolet;
+}
+
+.submit-score-btn {
+    width: 100%;
+    background-color: black;
+    color: blueviolet;
+}
+
+.submit-score-btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0 ,0.695), 0 17px 50px 0 rgb(0, 0, 0);
+}
